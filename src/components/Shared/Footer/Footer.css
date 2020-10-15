@@ -1,0 +1,36 @@
+.footer{
+    background-color:#FBD062;
+}
+
+.footer-info h1{
+    font-size: 34px;
+    font-weight:600;
+}
+.footer-info p{
+    font-size: 14px;
+    font-weight:300;
+}
+
+.send-feedback input{
+    margin-bottom:10px;
+}
+.send-feedback textarea{
+    margin-bottom:10px;
+    resize:none;
+}
+
+.copyright-info{
+    font-size:14px;
+    font-weight:300;
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    .footer-info h1{
+        font-size: 24px;
+        font-weight:600;
+    }
+}

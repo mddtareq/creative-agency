@@ -1,0 +1,47 @@
+.all-services-header{
+    font-size:15px;
+    font-weight: 600;
+    border-radius: 5px;
+    padding: 6px;
+    background-color:#F5F6FA;
+}
+
+.all-service{
+    background-color: rgb(255, 252, 252);
+    padding: 20px;
+    border-radius: 5px;
+}
+.all-services-content{
+    padding: 6px;
+    font-size: 12px;
+} 
+
+select{
+    border:none;
+    outline: none;
+    margin-left: -4px;
+}
+
+.status-select-pending {
+    color:#FF4545;
+}
+
+.status-select-ongoing{
+    color:#FFBD3E;
+}
+
+.status-select-done{
+    color:#009444;
+}
+
+.option-done{
+    color:#009444;
+}
+
+.option-ongoing{
+    color:#FFBD3E;
+}
+
+.option-pending{
+    color:#FF4545;
+}

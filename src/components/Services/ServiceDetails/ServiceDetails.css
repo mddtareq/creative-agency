@@ -1,0 +1,43 @@
+.single-service{
+    border-radius:5px;
+    padding: 15px;
+    background: #FFFFFF;
+    margin-bottom:20px;
+}
+.single-service img{
+    width: 50px;
+    height: 50px;
+    margin-bottom:10px;
+}
+.single-service h6{
+    font-weight: 400;
+    font-size: 20px;
+}
+.single-service p{
+    height: 70px;
+    overflow: hidden;
+}
+
+.single-service h5{
+    height: 25px;
+    overflow: hidden;
+}
+
+.pending{
+    color: #FF4545;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    background-color:#FFE3E3;
+}
+.ongoing{
+    color: #f8a305;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    background-color: #ffbb3e49;
+}
+.done{
+    color: #009444;
+    border-radius: 5px;
+    padding: 5px 15px 5px 15px;
+    background-color:#C6FFE0;
+}

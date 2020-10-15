@@ -1,0 +1,20 @@
+.services h1{
+    color: #2D2D2D;
+    font-size:34px;
+    font-weight:600;
+}
+
+.cus-color-green{
+    color:#7AB259;
+}
+
+@media screen and (min-width:768px) and (max-width: 991px) {
+    
+}
+
+@media screen and (max-width: 575px) {
+    
+    .services h1{
+        font-size: 25px;
+    }
+}

@@ -1,0 +1,238 @@
+.content-header img{
+    width:100%;
+    height: 100%;
+}
+.user-info h6{
+    font-weight:600;
+    font-size:20px;
+}
+.menu-items img{
+    width:20px;
+    height:20px;
+    margin-right: 5px;
+}
+.menu-items p{
+    margin-right: 10px;
+}
+.menu-items{
+    margin-top:40px;
+}
+.menu-items p{
+    cursor: pointer;
+    margin-top:0px;
+    font-weight:600;
+}
+
+.content-details{
+    background-color:#E5E5E5;
+    height: 800px;
+}
+
+
+
+.order-info input{
+    width: 70%;
+    margin-bottom:10px;
+}
+
+.half-input input{
+    width: 35%;
+    margin-right: 5px;
+    display: inline;
+}
+
+.send{
+    margin-bottom: 200px;
+}
+
+.send input{
+    border-radius: 5px;
+    height: 35px;
+    width: 25%;
+}
+
+
+.order-info textarea{
+    resize:none;
+    width: 70%;
+    margin-bottom:10px;
+}
+
+.admin-email{
+    border-radius: 5px;
+    padding:10px 10px 100px 10px;
+    background-color:#FFFFFF;
+}
+
+.admin-email input{
+    width:70%;
+    margin-bottom: 10px;
+}
+
+.admin-email button{
+    border-radius: 5px;
+    height: 37px;
+    border:none;
+    width: 20%;
+    margin-left: 10px;
+}
+
+#order{
+    display: block;
+}
+
+#order-text{
+    color: green;
+}
+
+#services{
+    display: none;
+}
+
+#review{
+    display: none;
+}
+
+#user-menu{
+    display: block;
+}
+
+#admin-menu{
+    display: block;
+}
+
+#user-content{
+    display: block;
+}
+
+#admin-content{
+    display: block;
+}
+
+#make-admin{
+    display: none;
+}
+
+#add-service{
+    display: none;
+}
+
+#all-Services{
+    display: block;
+}
+
+#all-services-text {
+    color:green;
+}
+
+.add-admin-form{
+    padding:20px;
+    background-color:#FFFFFF;
+}
+
+.add-admin-form input{
+    width: 65%;
+}
+
+.add-admin-form textarea{
+    width: 65%;
+    resize:none;
+}
+
+.add-service-image input{
+    margin-left: 10px;
+}
+
+.add-admin-flex{
+    display: flex;
+}
+
+.add-admin-send button{
+    padding: 4px 20px 4px 20px;
+    border-radius: 3px;
+    border:none;
+    outline: none;
+    margin-top: 10px;
+    margin-bottom:50px;
+}
+
+.single-service-info{
+    margin-top: 45px;
+    margin-bottom:100px;
+}
+
+.add-admin{
+    display:flex;
+}
+
+@media only screen and (min-width: 575px) and (max-width: 768px) {
+.user-info h6{
+    font-weight:600;
+    font-size:14px;
+}
+.user-info h3{
+    font-size:20px;
+}
+}
+
+@media only screen and (max-width: 575px){
+    .user-info h3{
+        font-size:14px;
+    }
+    .user-info h6{
+        font-weight:600;
+        font-size:12px;
+    }
+    .order-info input{
+        width: 100%;
+    }
+    .order-info textarea{
+        resize:none;
+        width: 100%;
+    }
+    .order-info{
+        margin-left: 5px;
+    }
+    .send{
+        margin-bottom: 120px;
+    }
+    .menu-items{
+        display:flex;
+    }
+    .menu-items img{
+        width:16px;
+        height:16px;
+        margin-right: 2px;
+    }
+    .menu-items p{
+        font-size:9px;
+    }
+    .admin-email input{
+        width:100%;
+        margin-bottom:10px;
+    }
+
+    .add-admin{
+        display:block;
+    }
+
+    .admin-email button{
+        margin-left:0px;
+        width:30%;
+    }
+
+    .add-service-image input{
+        margin-top: 20px;
+        margin-left: 00px;
+    }
+    .add-admin-flex{
+        display: block;
+    }
+    .add-admin-form input{
+        width: 100%;
+    }
+    
+    .add-admin-form textarea{
+        width: 100%;
+    }
+}
