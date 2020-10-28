@@ -93,12 +93,10 @@
     display: none;
 }
 
-#user-menu{
-    display: block;
+#user-menu{ 
 }
 
 #admin-menu{
-    display: block;
 }
 
 #user-content{

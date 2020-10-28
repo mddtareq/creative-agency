@@ -3,7 +3,7 @@ import './FeedbackDetails.css';
 import c2 from '../../../../images/customer-2.png'
 
 const FeedbackDetails = ({feedback}) => {
-    const { name, designation,review} = feedback;
+    const { name, designation,review,image} = feedback;
     return (
         <div className="col-md-4 col-sm-6">
             <div className="client-review">

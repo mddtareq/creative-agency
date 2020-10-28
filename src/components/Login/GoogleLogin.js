@@ -48,8 +48,8 @@ const GoogleLogin = () => {
                 <div className="login">
                     <h3 className="login-header">Login With</h3>
                     <div className="row">
-                        <div className="col-md-1"></div>
-                        <div className="col-md-10 col-12 col-sm-12">
+                        <div className="col-md-1 col-1 col-sm-1"></div>
+                        <div className="col-md-10 col-10 col-sm-10">
                             <div className="social-btn">
                                 <button onClick={googleLogin}>
                                     <div className="google d-flex justify-content-between align-items-center">

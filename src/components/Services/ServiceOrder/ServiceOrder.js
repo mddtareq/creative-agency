@@ -37,7 +37,7 @@ const ServiceOrder = ({service}) => {
                     <input onChange={change} name="price" className="form-control" type="text" placeholder="Price" required/>
                     <input type="file" />
                 </div>
-                <div className="send">
+                <div className="">
                     <input className='btn-black' type="submit" value="Send" />
                 </div>
             </form>

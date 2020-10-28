@@ -89,10 +89,10 @@ const Services = () => {
                         <Link to='/'><img src={logo} alt="" /></Link>
                     </div>
                 </div>
-                <div className="col-md-6 col-sm-6 col-2">
+                <div className="col-md-6 col-sm-6 col-3">
                     <h3 id='show-top-menu'>Order</h3>
                 </div>
-                <div className="col-md-3 col-6 col-sm-3">
+                <div className="col-md-3 col-5 col-sm-3">
                     <h6>{logged.name}</h6>
                 </div>
                 <div className="col-md-3 col-sm-3 col-12 d-flex justify-content-center">

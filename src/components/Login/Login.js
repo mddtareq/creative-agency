@@ -11,7 +11,9 @@ const Login = () => {
             <Link to='/'><img src={logo} alt=""/></Link>
             </div>
             <div className="col-md-4"></div>
+            <div className="col-md-12">
             <GoogleLogin></GoogleLogin>
+            </div>
             
         </div>
     );
